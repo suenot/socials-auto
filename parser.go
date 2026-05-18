@@ -22,6 +22,7 @@ const (
 	PlatformStackOverflow Platform = "stackoverflow"
 	PlatformTBankPulse    Platform = "tbank_pulse"
 	PlatformSmartLab      Platform = "smartlab"
+	PlatformReddit        Platform = "reddit"
 )
 
 // PostKind narrows a Post by its native form on the platform.
