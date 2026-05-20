@@ -24,6 +24,11 @@ const (
 	PlatformSmartLab      Platform = "smartlab"
 	PlatformReddit        Platform = "reddit"
 	PlatformGitHub        Platform = "github"
+	// PlatformMarketmakerAuth tracks the auth.marketmaker.cc registered-user
+	// count via its public /stats/users-count endpoint. It's a project-level
+	// metric rather than a per-user channel, but fits the same shape:
+	// Followers = total user count.
+	PlatformMarketmakerAuth Platform = "marketmaker_auth"
 )
 
 // PostKind narrows a Post by its native form on the platform.
