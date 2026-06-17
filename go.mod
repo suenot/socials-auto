@@ -1,3 +1,3 @@
-module github.com/suenot/w-popularity-shared
+module github.com/suenot/socials-auto
 
 go 1.23
